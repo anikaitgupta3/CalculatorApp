@@ -157,7 +157,8 @@ class CalculatorActivity : AppCompatActivity() {
 
             }
             else {
-                expression.text = "${expression.text}$value"
+                //expression.text = "${expression.text}$value"
+                expression.append(value)
             }
             //expression.append(value) (both are same)
 

@@ -13,9 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CalculatorApp"
         tools:targetApi="31">
-        <activity
-            android:name=".Calculatorpractice1"
-            android:exported="false" />
+
         <activity
             android:name=".CalculatorActivity"
             android:exported="false" />
