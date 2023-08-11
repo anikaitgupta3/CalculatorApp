@@ -153,7 +153,7 @@ class CalculatorActivity : AppCompatActivity() {
         if(isnumberordecimal){
             //85+25 =110 press 2 result cleared expn will 2
             result.text=""
-            if(expression.text.last()=='.' && value=="."){
+            if(expression.text.isNotEmpty() && expression.text.last()=='.' && value=="."){
 
             }
             else {
